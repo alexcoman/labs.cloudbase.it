@@ -1,6 +1,4 @@
-
 <!-- Index Layout Start -->
-
 <!DOCTYPE html>
 <html lang="{{ site.lang }}">
 
@@ -12,13 +10,7 @@
 
     {% include header.html %}
 
-    {% for p in site.pages_list %}
-      {% for page in site.pages %}
-        {% if p[1] == page.section-type %}
-          {% include {{ page.path }} %}
-        {% endif %}
-      {% endfor %}
-    {% endfor %}
+    {{ content }}
 
     {% include footer.html %}
 
@@ -26,5 +18,4 @@
 
   </body>
 </html>
-
 <!-- Index Layout End -->
