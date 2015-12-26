@@ -1,34 +1,32 @@
-
+{% assign contact = site.data[page.data].contact %}
 <!-- Contact Start -->
+<section id="contact" class="contact container content-section text-center">
 
-<section id="contact" class="container content-section text-center">
-  <div class="row">
+  <div id="contact-content" class="row">
     <div class="col-md-10 col-md-offset-1">
-      {% if site.email %}
-        {% if site.email contains '@' %}
-          {% assign newemail = site.email | split: '@' %}
-            <p>
-            <script>
-              function join_at_email(user, domain){
-              return (user && domain)?(user + "@" + domain):"";
-              }
-              document.write('<a href="mailto:'
-              + join_at_email( "{{ newemail[0] }}", "{{ newemail[1] }}" )
-              + '">'
-              + join_at_email( "{{ newemail[0] }}", "{{ newemail[1] }}" )
-              + '</a>'
-              );
-              </script>
-            </p>
-        {% else %}
-          <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
-        {% endif %}
-      {% endif %}
+      <h3>{{ contact.title }}</h3>
+      <p>{{ contact.content }}</p>
+    </div>
+  </div>
 
+  <div id="contact-blocks" class="row">
+    {% for block in contact.blocks %}
+        {% assign collumn_width = 12 | divided_by: forloop.length %}
+    <div class="col-md-{{ collumn_width }} col-xs-12">
+      <h5>{{ block.title }}</h5>
+      <ul>
+        {% for link_element in block.links %}
+        <li><a href="{% if link_element.permalink != null %} {{ link_element.permalink | prepend: site.baseurl }} {% else %} {{ link_element.link }} {% endif %}" {% if link_element.link != null %}target="_blank"{% endif %}>{{ link_element.text }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endfor %}
+  </div>
+
+  <div id="contact-links" class="row">
+    <div class="col-md-10 col-md-offset-1">
       {% include social-buttons.html %}
-
     </div>
   </div>
 </section>
-
 <!-- Contact End -->

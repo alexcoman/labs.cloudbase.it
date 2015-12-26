@@ -1,0 +1,22 @@
+title: Get in touch
+content: <p>How can we help you? Send us a <a href="https://cloudbase.it/about/#contact" target="_blank">message</a>.</p>
+
+blocks:
+ -
+  title: "Cloudbase Solutions"
+  links:
+   - {link: "https://cloudbase.it/about/", text: "About us"}
+   - {link: "https://cloudbase.it/about/#team", text: "Our Team"}
+
+ -
+  title: "Quick links"
+  links:
+   - {link: "", text: "Cloudbase LABS @Iași"}
+   - {link: "", text: "Cloudbase LABS @Timișoara"}
+ -
+  title: "Our Offices"
+  links:
+   - {link: "https://www.google.com/maps/place/Cloudbase+Solutions/@45.745814,21.232827,15z/data=!4m2!3m1!1s0x0:0x199da4b8142cc67?hl=ro-RO",
+      text: "Timișoara: Ion Vidu 3, Romania"}
+   - {link: "https://www.google.com/maps/place/Continental,+Bulevardul+Poitiers+6,+Ia%C8%99i,+Rom%C3%A2nia/@47.137145,27.599266,15z/data=!4m2!3m1!1s0x40cafbc814d8d299:0x3b1c37116a5c9b5?hl=ro-RO",
+      text: "Iași: Poitiers 6, Romania"}
