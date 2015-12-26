@@ -3,7 +3,7 @@
 
 # NB! Set your site's url, otherwise stuff will break :)
 
-url: "https://panossakkos.github.io"
+url: "https://alexandrucoman.github.io"
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (https://yourusername.github.io/repository-name)
@@ -12,7 +12,7 @@ url: "https://panossakkos.github.io"
 #
 # NB! Without this *nothing* will work, because it's used in every path :)
 
-baseurl: /personal-jekyll-theme
+baseurl: "/labs.cloudbase.it"
 
 # Google tracking id to track your visitors
 
@@ -29,10 +29,12 @@ force-https: True
 #############
 
 lang: "en"
-author: "John Smith"
-title: "{ John Smith }"
-description: "Blog and website of John Smith, blogging mainly for tech. Opinions expressed are mine."
-keywords: "smith, jones, personal, jekyll, theme"
+author: "Cloudbase Solutions"
+title: "{ Cloudbase LABS }"
+description: >
+  We are bringing OpenStack to the classroom and as part of our effort
+  we will teach, mentor and assist a group of 15 students.
+keywords: "windows, linux, python, bash, powershell, openstack, hyper-v"
 favicon: "/img/favicon.ico"
 404-img: "/img/labtocat.png"
 
@@ -41,25 +43,6 @@ favicon: "/img/favicon.ico"
 ################
 
 black-favicon: "/img/black-lab-glass.ico"
-
-background-img: "../img/intro-bg.jpg"
-
-##############################
-# Dynamic Text on the Header #
-##############################
-
-dynamic-typing: True
-shuffle: True # Shuffle the lines.
-loop: True
-loop-count: False # Set False for infinite loop, or set any number for finite loop.
-type-speed: 10
-start-delay: 200
-delete-delay: 5000
-lines: # You can add HTML Tags in the Text
-  - text: "The lower you fall, the higher you'll fly."
-  - text: "Where’s your will to be weird?"
-
-me-img: "/img/jetpacktocat.png"
 
 ################
 # Web app mode #

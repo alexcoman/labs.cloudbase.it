@@ -1,0 +1,24 @@
+##############################
+# Dynamic Text on the Header #
+##############################
+background-img: "../img/home-background.jpg"
+dynamic-typing: True
+shuffle: True
+loop: True
+# Set False for infinite loop, or set any number for finite loop.
+loop-count: False
+type-speed: 10
+start-delay: 200
+delete-delay: 5000
+intro-text: ""
+lines:
+  - text: "The lower you fall, the higher you'll fly."
+  - text: "Where’s your will to be weird?"
+items:
+    - url: "#"
+      image: "img/labs_iasi.jpg"
+      description: "Cloudbase LABS @Iași"
+
+    - url: "#"
+      image: "img/labs_timisoara.jpg"
+      description: "Cloudbase LABS @Timișoara"
