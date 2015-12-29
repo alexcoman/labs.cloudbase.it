@@ -1,0 +1,13 @@
+title: "About Cloudbase LABS"
+content: >
+    <p>We are bringing OpenStack to the classroom and as part of our
+    effort we will teach, mentor and assist a group of 15 students for
+    a period of 10 weeks, covering the following topics: Python, Hyper-V,
+    OpenStack, Git, Software Defined Networking, Networking, System
+    Administration.</p>
+    
+    <p>The goal of this workshop is to be able to deploy an OpenStack
+    cloud for development purposes, understand the general concepts and
+    architecture, be able to look under the hood and debug, test previously
+    implemented features and be able to fix simple reported bugs and start
+    implementing Python code.</p>
