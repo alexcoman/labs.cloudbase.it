@@ -11,8 +11,8 @@ blocks:
  -
   title: "Quick links"
   links:
-   - {link: "", text: "Cloudbase LABS @Iași"}
-   - {link: "", text: "Cloudbase LABS @Timișoara"}
+   - {permalink: "/iasi/", text: "Cloudbase LABS @Iași"}
+   - {permalink: "/timisoara/", text: "Cloudbase LABS @Timișoara"}
  -
   title: "Our Offices"
   links:
