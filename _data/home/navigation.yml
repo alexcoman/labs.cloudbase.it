@@ -1,0 +1,8 @@
+logo: null
+title: null
+
+links:
+    - {section: "about",    text: "About"}
+    - {section: "contact",  text: "Contact"}
+    - {link: "/iasi/",      text: "LABS @Iasi"}
+    - {link: "/timisoara/", text: "LABS @Timisoara"}
