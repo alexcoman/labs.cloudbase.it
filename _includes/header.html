@@ -1,22 +1,28 @@
-
+{% assign header = site.data[page.data].header %}
+{% assign base = {{site.url}}{{site.baseurl}} %}
 <!-- Intro Start -->
-
-<header class="intro">
+<header class="intro-{{ page.data }}">
   <div class="intro-body">
     <div class="container">
       <div class="row">
           <div class="col-md-10 col-md-offset-1">
             <h1 class="brand-heading">&nbsp;</h1>
             <h1 class="brand-heading">&nbsp;</h1>
-            <span class="intro-text">{{ content }}</span>
+            <span class="intro-text">{{ header.intro-text }}</span>
             <h5>&nbsp;</h5>
-            <a href="#{{ site.pages_list['About'] }}" class="page-scroll">
-              <img class="img-me" src="{{site.baseurl}}{{ site.me-img }}" alt="">
-            </a>
+
+            {% for item in header.items %}
+            <div class="col-md-6 col-sm-6 col-xs-12 same-height cols-centered">
+              <a href="{{ item.url | prepend: site.baseurl}}">
+                <img class="img-me" src="{{ base }}{{ item.image }}" alt="{{ item.description }}">
+                <figcaption><h5>{{ item.description }}</h5></figcaption>
+              </a>
+            </div>
+            {% endfor %}
+
           </div>
         </div>
     </div>
   </div>
 </header>
-
 <!-- Intro End -->

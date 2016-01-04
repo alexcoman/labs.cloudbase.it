@@ -1,6 +1,5 @@
 ---
 ---
-
 @import "variables";
 @import "mixins";
 
@@ -151,14 +150,17 @@ a {
     padding: 100px 0;
     text-align: center;
     color: $intro-text-color;
-    {% if site.background-img %}
-    background: url({{ site.background-img }}) no-repeat bottom center scroll;
-    {% endif %}
     background-color: $header-background-color;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+
+    a {
+        color: #fff;
+        &:hover,
+        &:focus {
+            text-decoration: none;
+            color: $primary;
+        }
+    }
+
     .intro-body {
         display: table-cell;
         vertical-align: middle;
@@ -168,7 +170,7 @@ a {
         .intro-text {
             font-size: 18px;
             @if $navbar-text-shadow {
-                text-shadow: 1px 0 1px #000;
+                tdext-shadow: 1px 0 1px #000;
             }
         }
     }
@@ -184,6 +186,16 @@ a {
             }
         }
     }
+}
+
+{% assign header = site.data.home.header %}
+.intro-home {
+    @extend .intro;
+    background: url({{ header.background-img }}) no-repeat bottom center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
 @-webkit-keyframes pulse {
@@ -305,7 +317,7 @@ ul.social-buttons li a {
     }
 }
 
-footer {
+.footer {
     padding: 50px 0;
     p {
         margin: 0;
@@ -419,4 +431,15 @@ body {
 
 .fourofour {
   border: 1px solid $dark !important;
+}
+
+.contact {
+    ul {
+        margin-top: 13px;
+        padding: 0;
+    }
+    li {
+        margin-bottom: 9px;
+        list-style-type: none;
+    }
 }

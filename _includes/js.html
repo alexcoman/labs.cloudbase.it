@@ -1,3 +1,4 @@
+{% assign data = site.data[page.data] %}
 
 <!-- Javascript Start -->
 
@@ -108,54 +109,47 @@ $(window).scroll(toggleNavCollapse);$(function(){$("a.page-scroll").bind("click"
 
 {% endif %}
 
-{% if site.dynamic-typing and page.section-type == "index"%}
-
+{% assign header = data.header %}
+{% if header.dynamic-typing and page.section-type == "index"%}
   <!-- Dynamic Typing Start -->
-
   <script type="text/javascript" src="{{site.baseurl}}/js/typed.js"></script>
   <script type="text/javascript">
+    function shuffle(array) {
+      var currentIndex = array.length, temporaryValue, randomIndex ;
+      // While there remain elements to shuffle...
+      while (0 !== currentIndex) {
+        // Pick a remaining element...
+        randomIndex = Math.floor(Math.random() * currentIndex);
+        currentIndex -= 1;
 
-  var myQuotes =  new Array();
-  {% for line in site.lines %}
-    myQuotes.push("{{ line.text }}");
-  {% endfor %}
-
-  function shuffle(array) {
-    var currentIndex = array.length, temporaryValue, randomIndex ;
-
-    // While there remain elements to shuffle...
-    while (0 !== currentIndex) {
-
-      // Pick a remaining element...
-      randomIndex = Math.floor(Math.random() * currentIndex);
-      currentIndex -= 1;
-
-      // And swap it with the current element.
-      temporaryValue = array[currentIndex];
-      array[currentIndex] = array[randomIndex];
-      array[randomIndex] = temporaryValue;
+        // And swap it with the current element.
+        temporaryValue = array[currentIndex];
+        array[currentIndex] = array[randomIndex];
+        array[randomIndex] = temporaryValue;
+      }
+      return array;
     }
 
-    return array;
-  }
+    var myQuotes =  new Array();
+    {% for line in header.lines %}
+      myQuotes.push("{{ line.text }}");
+    {% endfor %}
 
-  {% if site.shuffle %}
-    shuffle(myQuotes)
-  {% endif %}
+    {% if header.shuffle %}
+      shuffle(myQuotes)
+    {% endif %}
 
     $(".intro-text").typed({
                   strings: myQuotes,
-                  typeSpeed: {{ site.type-speed }},
-                  backDelay: {{ site.delete-delay }},
-                  startDelay: {{ site.start-delay }},
-                  loop: {{ site..loop }},
-                  loopCount: {{ site.loop-count }},
+                  typeSpeed: {{ header.type-speed }},
+                  backDelay: {{ header.delete-delay }},
+                  startDelay: {{ header.start-delay }},
+                  loop: {{ header.loop }},
+                  loopCount: {{ header.loop-count }},
                   cursorChar: "|"
                 });
   </script>
-
   <!-- Dynamic Typing End  -->
-
 {% endif %}
 
 <script>
