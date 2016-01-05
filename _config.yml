@@ -1,32 +1,33 @@
+# Plugins
+gems:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jemoji
+safe: false
+
+# Build Settings
+markdown: kramdown
+permalink: pretty
+exclude:
+  - CONTRIBUTING
+  - CONTRIBUTORS
+  - README.md
+  - Rakefile
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - .gitignore
+  - .travis.yml
+
+# Enable minification SASS
+sass:
+  style: compressed
 
 # Site settings
+baseurl: ""
+url: "labs.alexcoman.com"
+google-tracking-id: ""
 
-# NB! Set your site's url, otherwise stuff will break :)
-
-url: "https://alexandrucoman.github.io"
-
-# If you're hosting your site at a Project repository on GitHub pages
-# (https://yourusername.github.io/repository-name)
-# and NOT your user repository (https://yourusername.github.io)
-# then add in the baseurl here, like this: "/repository-name"
-#
-# NB! Without this *nothing* will work, because it's used in every path :)
-
-baseurl: "/labs.cloudbase.it"
-
-# Google tracking id to track your visitors
-
-google-tracking-id: "UA-35880426-4"
-
-# Forces https everywhere in your website, except when you serve it locally
-# If you are not hosted on Github Pages, and your host doesn't support https
-# then you should disable it
-
-force-https: True
-
-#############
-# HTML Head #
-#############
 
 lang: "en"
 author: "Cloudbase Solutions"
@@ -35,23 +36,14 @@ description: >
   We are bringing OpenStack to the classroom and as part of our effort
   we will teach, mentor and assist a group of 15 students.
 keywords: "windows, linux, python, bash, powershell, openstack, hyper-v"
+
 favicon: "/img/favicon.ico"
-404-img: "/img/labtocat.png"
-
-################
-# Header layout #
-################
-
 black-favicon: "/img/black-lab-glass.ico"
 
-################
-# Web app mode #
-################
-
+404-img: "/img/labtocat.png"
 web-app-mode: True
 
 # Icons for Web App mode
-
 icon-36p: "/img/web-app/icon-36p.png"
 icon-48p: "/img/web-app/icon-48p.png"
 icon-72p: "/img/web-app/icon-72p.png"
@@ -59,14 +51,11 @@ icon-96p: "/img/web-app/icon-96p.png"
 icon-144p: "/img/web-app/icon-144p.png"
 icon-192p: "/img/web-app/icon-192p.png"
 
-########
-# Blog #
-########
-
+# Blog
 post-preview-words: 96
-
 paginate: 5
 
+# Share options
 email-share: True
 fb-share: True
 twitter-share: True
@@ -82,10 +71,6 @@ disqus-shortname: "cloudbaselabs"
 
 syntax-highlight: True
 
-##################
-# Social Buttons #
-##################
-
 social:
   - title: "facebook"
     url: "https://facebook.com/"
@@ -98,34 +83,14 @@ social:
   - title: "rss"
     url: "/feed.xml"
 
-############
-# 404 page #
-############
-
-404-img: "/img/labtocat.png"
-
-################################################################################
-
-# NB! Tread carefully if you want to change the variables below this point!
-
-# Exclusion list from the generated _site
-
-exclude: ["LICENSE", "README.md", "CONTRIBUTING", "CONTRIBUTORS", "scripts"]
-
 # Pagination path
-
 paginate_path: "blog/page:num/"
 
-# Enable minification SASS
-sass:
-  style: compressed
-
-gems:
-  - jekyll-paginate
-  - jemoji
-
-safe: false
-
-# Build Settings
-markdown: kramdown
-permalink: pretty
+# Settings for deploy rake task
+username:        "alexandrucoman"
+repo:            "labs.cloudbase.it"
+branch:          "master"
+relative_source: "../labs.cloudbase.it/"
+destination:     "../labs.cloudbase.it-pages/"
+production_url:  "https://labs.alexcoman.com"
+source_url:      "https://github.com/alexandrucoman/labs.cloudbase.it"
