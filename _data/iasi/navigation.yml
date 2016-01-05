@@ -4,6 +4,7 @@ title: null
 links:
     - {section: "page-top",    text: "Home"}
     - {section: "about",       text: "About"}
+    - {section: "team",        text: "Mentors"}
     - {section: "timeline",    text: "Timeline"}
     - {section: "latest-post", text: "News"}
     - {section: "apply-now",   text: "Apply now"}
