@@ -1,0 +1,9 @@
+background-img: "/img/iasi-background.jpg"
+intro-text: >
+    "The journey of a thousand miles begins with one step."<br>
+    ~Lao Tzu
+
+items:
+    - section: "apply-now"
+      image: "../img/apply-now.jpg"
+      description: "Apply now !"
