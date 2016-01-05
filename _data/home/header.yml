@@ -1,21 +1,11 @@
 ##############################
 # Dynamic Text on the Header #
 ##############################
-background-img: "../img/home-background.jpg"
-dynamic-typing: True
-shuffle: False
-loop: True
-# Set False for infinite loop, or set any number for finite loop.
-loop-count: False
-type-speed: 10
-start-delay: 200
-delete-delay: 2000
-intro-text: ""
-lines:
-  - text: "One machine can do the work of fifty ordinary men."
-  - text: "No machine can do the work of one extraordinary man."
-  - text: "~Elbert Hubbard"
-  - text: "Where’s your will to be weird?"
+background-img: "/img/home-background.jpg"
+intro-text: >
+  "Sometimes it's the journey that teaches you a lot about your destination."
+  ~Drake
+
 items:
     - url: "/iasi/"
       image: "img/labs_iasi.jpg"
