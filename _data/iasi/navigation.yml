@@ -1,0 +1,10 @@
+logo: null
+title: null
+
+links:
+    - {section: "page-top",    text: "Home"}
+    - {section: "about",       text: "About"}
+    - {section: "timeline",    text: "Timeline"}
+    - {section: "latest-post", text: "News"}
+    - {section: "apply-now",   text: "Apply now"}
+    - {section: "contact",     text: "Contact"}

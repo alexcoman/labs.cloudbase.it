@@ -1,0 +1,25 @@
+timeline-img: "/img/timeline/default.png"
+title: "Timelime"
+events:
+  - image: "/img/timeline/father_timeout.jpg"
+    date: "6 - 23 January"
+    description: "Submission of the applications."
+
+  - image: "/img/timeline/agendacat.png"
+    date: "11 - 30 January"
+    description: "Interviews for the trainings."
+
+  - image: "/img/timeline/supportcat.png"
+    date: "25 - 31 January"
+    description: "Announcement of the results."
+
+  - image: "/img/timeline/socialite.jpg"
+    date: "1 - 14 February"
+    description: >
+        Open Source 101 - Basic information about open source,
+        source control, python, bash, PowerShell, basic linux
+        and more."
+
+  - image: "/img/timeline/pythocat.png"
+    date: "15 February"
+    description: ""

@@ -1,8 +1,5 @@
-
 <!-- HEAD Start -->
-
 <head>
-  {% include force-https.html %}
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -16,10 +13,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
   <!-- Custom CSS -->
-  <link href="{{site.baseurl}}/css/grayscale.css" rel="stylesheet">
-  {% if page.section-type == "index" %}
-  <link href="{{site.baseurl}}/css/timeline.css" rel="stylesheet">
-  {% endif %}
+  <link href="{{ "/css/main.css" | prepend: site.baseurl }}" rel="stylesheet">
 
   <!-- Custom Fonts -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
