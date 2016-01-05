@@ -1,13 +1,11 @@
 title: "About Cloudbase LABS"
 content: >
-    <p>We are bringing OpenStack to the classroom and as part of our
-    effort we will teach, mentor and assist a group of 15 students for
-    a period of 10 weeks, covering the following topics: Python, Hyper-V,
-    OpenStack, Git, Software Defined Networking, Networking, System
-    Administration.</p>
-    
-    <p>The goal of this workshop is to be able to deploy an OpenStack
-    cloud for development purposes, understand the general concepts and
-    architecture, be able to look under the hood and debug, test previously
-    implemented features and be able to fix simple reported bugs and start
-    implementing Python code.</p>
+    <p>Cloudbase Solutions is a startup that strives to grow
+    the open-source community.</p>
+    <p>Our goal is to help as many students as possible to grow
+    and to learn new technologies that we believe will be applied
+    in the future, to make the world a better place for all of us.</p>
+    <p>For fulfilling this mission, we designed multiple community
+    projects, Cloudbase LABS being one of them. This event brings
+    together Cloudbase specialists, enthusiastic students and not
+    only.</p>

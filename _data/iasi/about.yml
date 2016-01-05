@@ -1,12 +1,8 @@
 title: "Cloudbase LABS @Iasi"
 content: >
-    <p>The goal of this workshop is to be able to become familiar
-    and confident with Python, test previously implemented features,
-    be able to fix simple bugs and start implementing Python code in
-    one of the biggest open source projects out there, OpenStack.<p>
-    
-    <p>To get there, we will also give a crash course on system
-    administration (Linux / Windows + scripting - Bash / PowerShell)
-    and networking principles that are required to deploy an OpenStack
-    cloud for development purposes, understand the general concepts and
-    architecture, be able to look under the hood and debug.</p>
+    <p>Cloudbase Solutions is organizing in Iasi the first training
+    sessions about open source, source control, python, bash, PowerShell,
+    basic linux and more. It would be an opportunity for those who are
+    willing to take a shot with this programs, learn how to use them
+    (from the scratch) and maybe get to work in our team after passing
+    through the other stages.</p>

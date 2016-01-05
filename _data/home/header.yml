@@ -1,7 +1,7 @@
 background-img: "/img/home-background.jpg"
 intro-text: >
-  "Sometimes it's the journey that teaches you a lot about your destination."
-  ~Drake
+  "All we have to decide is what to do with the time that is given us."<br>
+  ~J. R. R. Tolkien
 
 items:
     - url: "/iasi/"
