@@ -4,8 +4,8 @@
 		<title>{ Cloudbase LABS }</title>
 		<description>We are bringing OpenStack to the classroom and as part of our effort we will teach, mentor and assist a group of 15 students.
 </description>
-		<link>labs.alexandrucoman.com</link>
-		<atom:link href="labs.alexandrucoman.com/feed.xml" rel="self" type="application/rss+xml" />
+		<link>labs.alexcoman.com</link>
+		<atom:link href="labs.alexcoman.com/feed.xml" rel="self" type="application/rss+xml" />
 		
 	</channel>
 </rss>
