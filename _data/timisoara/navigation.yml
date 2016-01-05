@@ -1,0 +1,7 @@
+logo: null
+title: null
+
+links:
+    - {section: "page-top",    text: "Home"}
+    - {section: "about",       text: "About"}
+    - {section: "contact",     text: "Contact"}

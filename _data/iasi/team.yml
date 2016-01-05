@@ -1,0 +1,45 @@
+title: "Meet the mentors"
+description: ""
+
+members:
+  - name: "Adelina"
+    surname: "Tuvenie"
+    picture: "adelina_tuvenie.jpg"
+    title: "Cloud Engineer"
+    social:
+      - title: "github"
+        url: "https://github.com/adelina-t"
+      - title: "linkedin"
+        url: "https://ro.linkedin.com/in/adelina-georgiana-tuvenie-3a4a144b/en"
+
+  - name: "Adrian"
+    surname: "Bora"
+    picture: "adrian_bora.jpg"
+    title: "Community Manager"
+    social:
+      - title: "facebook"
+        url: "https://www.facebook.com/adi.bora.7"
+      - title: "twitter"
+        url: "https://twitter.com/BoraAdi"
+      - title: "linkedin"
+        url: "https://ro.linkedin.com/in/boraadrian"
+
+  - name: "Alexandru"
+    surname: "Coman"
+    picture: "alexandru_coman.jpg"
+    title: "Cloud Engineer"
+    social:
+      - title: "github"
+        url: "https://github.com/alexandrucoman"
+      - title: "linkedin"
+        url: "https://www.linkedin.com/in/comanalex"
+      - title: "link"
+        url: "https://alexcoman.com/"
+
+  - name: "Alina"
+    surname: "Elenescu"
+    picture: "alina_elenescu.jpg"
+    title: "Office Manager"
+    social:
+      - title: "linkedin"
+        url: "https://ro.linkedin.com/in/alinaelenescu"
