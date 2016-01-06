@@ -17,3 +17,5 @@ _deploy/*
 .jekyll-metadata
 Gemfile.lock
 css/*
+
+css/main.css
