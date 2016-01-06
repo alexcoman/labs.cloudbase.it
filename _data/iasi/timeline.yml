@@ -18,8 +18,8 @@ events:
     description: >
         Open Source 101 - Basic information about open source,
         source control, python, bash, PowerShell, basic linux
-        and more."
+        and more.
 
   - image: "/img/timeline/pythocat.png"
     date: "15 February"
-    description: "If you liked, it is time to join the team !"
+    description: "If you liked it, it's time to join the team !"
