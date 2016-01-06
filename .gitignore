@@ -16,6 +16,5 @@ test/
 _deploy/*
 .jekyll-metadata
 Gemfile.lock
-css/*
-
+css/fonts/*
 css/main.css
