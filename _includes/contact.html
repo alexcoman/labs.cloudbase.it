@@ -10,17 +10,19 @@
   </div>
 
   <div id="contact-blocks" class="row">
-    {% for block in contact.blocks %}
-        {% assign collumn_width = 12 | divided_by: forloop.length %}
-    <div class="col-md-{{ collumn_width }} col-xs-12">
-      <h5>{{ block.title }}</h5>
-      <ul>
-        {% for link_element in block.links %}
-        <li><a href="{% if link_element.permalink != null %} {{ link_element.permalink | prepend: site.baseurl }} {% else %} {{ link_element.link }} {% endif %}" {% if link_element.link != null %}target="_blank"{% endif %}>{{ link_element.text }}</a></li>
-        {% endfor %}
-      </ul>
+    <div class="col-lg-10 col-lg-offset-1 text-center">
+      {% for block in contact.blocks %}
+      {% assign collumn_width = 12 | divided_by: forloop.length %}
+      <div class="col-md-{{ collumn_width }} col-sm-4 col-xs-12 col-center">
+        <h5>{{ block.title }}</h5>
+        <ul>
+          {% for link_element in block.links %}
+          <li><a href="{% if link_element.permalink != null %} {{ link_element.permalink | prepend: site.baseurl }} {% else %} {{ link_element.link }} {% endif %}" {% if link_element.link != null %}target="_blank"{% endif %}>{{ link_element.text }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endfor %}
     </div>
-    {% endfor %}
   </div>
 
   <div id="contact-links" class="row">

@@ -5,19 +5,9 @@
     <div class="col-md-10 col-md-offset-1">
       <h3>{{ timeline.title }}</h3>
       <ul class="timeline">
-        <li class="timeline-inverted">
-          <div class="timeline-image">
-            <img class="img-circle img-responsive" src="{{site.baseurl}}{{ timeline.timeline-img }}" alt="">
-          </div>
-        </li>
         {% for event in timeline.events %}
           {% assign loopindex = forloop.index | modulo: 2 %}
-          {% capture class %}
-          {% if loopindex == 0 %}
-            timeline-inverted
-          {% endif %}
-          {% endcapture %}
-          <li class="{{ class }}">
+          <li{% if loopindex == 0 %} class="timeline-inverted" {% endif %}>
             <div class="timeline-image">
               <img class="img-circle img-responsive" src="{{site.baseurl}}{{ event.image }}" alt="">
             </div>
