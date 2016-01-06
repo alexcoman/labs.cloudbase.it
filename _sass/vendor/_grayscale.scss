@@ -308,8 +308,10 @@ ul.social-buttons li a {
 }
 
 .footer {
-    padding: 50px 0;
+	border-top: 1px solid rgba(147, 138, 156, 0.15);
+    padding: 20px 0;
     p {
+        font-size: 16px;
         margin: 0;
     }
 }
