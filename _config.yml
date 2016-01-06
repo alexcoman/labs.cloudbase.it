@@ -38,7 +38,7 @@ description: >
 keywords: "windows, linux, python, bash, powershell, openstack, hyper-v"
 
 favicon: "/img/favicon.ico"
-black-favicon: "/img/black-lab-glass.ico"
+logo: "/img/logo.png"
 
 404-img: "/img/labtocat.png"
 web-app-mode: True

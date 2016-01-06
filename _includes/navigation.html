@@ -11,13 +11,9 @@
       {% else %}
         <a class="navbar-brand" href="{{site.baseurl}}/">
       {% endif %}
-          <div>
-            {% if site.black-favicon %}
-              <img src="{{ site.black-favicon | prepend: site.baseurl}}" alt="">
-            {% endif %}
-            {% if navigation.title %}{{ navigation.title}}
-            {% else %}{{ site.title }}{% endif %}
-          </div>
+          <a href="{{ site.baseurl }}/" id="logo-header" class="logo-header">
+            <div class="logo"></div>
+          </a>
         </a>
     </div>
     <!-- Collect the nav links, forms, and other content for toggling -->
