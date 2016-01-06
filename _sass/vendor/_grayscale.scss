@@ -10,6 +10,7 @@ body {
     font-family: 'Source Sans Pro', Helvetica, Arial, sans-serif;
     color: $light;
     background-color: $dark;
+	font-weight: 300;
 }
 
 html {
@@ -24,9 +25,8 @@ h4,
 h5,
 h6 {
     margin: 0 0 35px;
-    text-transform: uppercase;
-    font-family: "Geovanist","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
+    // text-transform: uppercase;
+    font-family: "geomanistbook", Helvetica, Arial, sans-serif;
     letter-spacing: 1px;
 }
 
@@ -65,7 +65,7 @@ a {
     margin-bottom: 0;
     border-bottom: 1px solid rgba($light, 0.3);
     text-transform: uppercase;
-    font-family: "Geovanist","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "geomanistmedium", Helvetica, Arial, sans-serif;
     background-color: $navbar-sm-background-color;
 
     /* Fix height limit and scroll for small screen and many items menu */
