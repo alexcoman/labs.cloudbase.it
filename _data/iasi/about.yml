@@ -1,8 +1,16 @@
-title: "Cloudbase LABS @Iasi"
+title: "Cloudbase LABS @Iași"
 content: >
-    <p>Cloudbase Solutions is organizing in Iasi the first training
-    sessions about open source, source control, python, bash, PowerShell,
-    basic linux and more. It would be an opportunity for those who are
-    willing to take a shot with these technologies, learn how to use them
-    (from the scratch) and maybe get to work in our team after passing
-    through the other stages.</p>
+    <p class="text-justify">
+        Cloudbase Solutions is organizing a Python & DevOps training
+        in Iasi. In this effort we will mentor and assist a group of
+        10 students over a period of 2 weeks, covering the following
+        topics: Python, Git, Linux / Windows and shell scripting
+        (Bash / PowerShell).
+    </p>
+    <p class="text-justify">
+        We’re doing this because we like open source projects and we
+        love Python. It’s a small community, but we want to see it grow.
+        Whether it’s OpenStack or any other open source project, we hope
+        that after 2 weeks you’ll start contributing to community driven
+        projects and want to get involved in open source.
+    </p>
