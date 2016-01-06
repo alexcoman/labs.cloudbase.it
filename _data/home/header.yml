@@ -6,8 +6,8 @@ intro-text: >
 items:
     - url: "/iasi/"
       image: "img/labs_iasi.jpg"
-      description: "Cloudbase LABS @Iași"
+      description: "Iași"
 
     - url: "/timisoara/"
       image: "img/labs_timisoara.jpg"
-      description: "Cloudbase LABS @Timișoara"
+      description: "Timișoara"
