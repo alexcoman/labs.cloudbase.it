@@ -17,7 +17,7 @@ events:
     date: "1 - 14 February"
     description: >
         Open Source 101 - Basic information about open source,
-        source control, python, bash, PowerShell, basic linux
+        source control, Python, Bash, PowerShell, basic Linux
         and more.
 
   - image: "/img/timeline/pythocat.png"
