@@ -5,5 +5,5 @@ intro-text: >
 
 items:
     - section: "apply-now"
-      image: "../img/apply-now.jpg"
-      description: "Apply now !"
+      image: "../img/apply-now.png"
+    #   description: "Apply now !"
