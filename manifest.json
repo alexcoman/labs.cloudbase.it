@@ -1,5 +1,5 @@
 {
-  "name": "{ Cloudbase LABS }",
+  "name": "Cloudbase LABS",
   "icons": [
     {
       "src": "/img/web-app/icon-36p.png",
@@ -38,6 +38,6 @@
       "density": 4.0
     }
   ],
-  "start_url": "labs.alexcoman.com",
+  "start_url": "https://labs.cloudbase.it/",
   "display": "standalone"
 }

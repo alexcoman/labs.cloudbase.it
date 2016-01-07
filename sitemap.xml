@@ -4,8 +4,42 @@
     
   
     
+  
+    
+  
+    
       <url>
-        <loc>labs.alexcoman.com/blog/</loc>
+        <loc>https://labs.cloudbase.it//iasi/</loc>
+        
+          
+          
+          
+          <priority>2.0</priority>
+          
+        
+       </url>
+    
+  
+    
+  
+    
+  
+    
+      <url>
+        <loc>https://labs.cloudbase.it//iasi/</loc>
+        
+          
+          
+          
+          <priority>2.0</priority>
+          
+        
+       </url>
+    
+  
+    
+      <url>
+        <loc>https://labs.cloudbase.it//</loc>
         
           
           
@@ -20,7 +54,7 @@
   
     
       <url>
-        <loc>labs.alexcoman.com/iasi/</loc>
+        <loc>https://labs.cloudbase.it//timisoara/</loc>
         
           
           
@@ -33,7 +67,7 @@
   
     
       <url>
-        <loc>labs.alexcoman.com/</loc>
+        <loc>https://labs.cloudbase.it//blog/</loc>
         
           
           
@@ -48,18 +82,14 @@
   
     
   
-    
-      <url>
-        <loc>labs.alexcoman.com/timisoara/</loc>
-        
-          
-          
-          
-          <priority>2.0</priority>
-          
-        
-       </url>
-    
   
+    <url>
+      <loc>https://labs.cloudbase.it//iasi/2016/01/07/applications-are-open/</loc>
+      
+        <lastmod>2016-01-07T00:00:00+00:00</lastmod>
+      
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+    </url>
   
 </urlset>
