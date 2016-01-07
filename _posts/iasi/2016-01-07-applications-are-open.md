@@ -9,14 +9,14 @@ tags: [ "iasi", "announcement" ]
 
 The applications for Cloudbase LABS are now open in Iași. If you are a student, apply until January 23 for a chance to attend a two week Python and DevOps workshop held by our colleagues from the [Cloudbase team][0]. 
 
-In order to deliver a high-quality workshop, we’ve limited the number of attendees to 10. After you apply, you’ll be scheduled for an interview, so that we can get to know each other better. It’s a good opportunity for us to know what you are passionate about in terms of computer science, what have you done so far and what you would like to learn. For you it’s the best opportunity to get to know us, find out more about the curricula, the mentors and the approach we are having for this program.
+In order to deliver a high-quality workshop, we’ve limited the number of attendees to 8. After you apply, you’ll be scheduled for an interview, so that we can get to know each other better. It’s a good opportunity for us to know what you are passionate about in terms of computer science, what have you done so far and what you would like to learn. For you it’s the best opportunity to get to know us, find out more about the curricula, the mentors and the approach we are having for this program.
 
 The program will have the following format - 4 hours / day, 5 days a week - and will be very hands-on. After the program is over we’d love to challenge you in writing a small open source Python project to see what you’ve learned. 
 
 Course timeline: 
 
-- January 6 - 23: Applications are open
-- January 11 - 30: Interview period
+- January 7 - 23: Applications are open
+- January 13 - 30: Interview period
 - January 25 - 31: Results are announced
 - February 1 - 14: Training sessions
 - February 15: Join the Cloudbase team!
