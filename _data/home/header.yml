@@ -6,8 +6,9 @@ intro-text: >
 items:
     - url: "/iasi/"
       image: "img/Labs2016_towns_IS.jpg"
-    #   description: "Iași"
+      use-class: true
 
     - url: "/timisoara/"
       image: "img/Labs2016_towns_TM.jpg"
-    #   description: "Timișoara"
+      use-class: true
+

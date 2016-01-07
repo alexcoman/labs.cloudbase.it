@@ -12,12 +12,17 @@
           {% assign colWidth = 12 | divided_by: forloop.length %}
           <div class="col-md-{{colWidth}} col-sm-{{colWidth}} col-xs-{{colWidth}} same-height cols-centered">
             <a {% if item.section != null %}class="page-scroll" href="#{{ item.section }}"{% else %}href="{{ item.url | prepend: site.baseurl}}"{% endif %}>
-              <img class="img-me" src="{{ item.image | preped: site.baseurl}}" alt="{{ item.description }}">
+              <img {% if item.use-class %}class="img-me"{% endif %} src="{{ item.image | preped: site.baseurl}}" alt="{{ item.description }}">
               <figcaption><h5>{{ item.description }}</h5></figcaption>
             </a>
           </div>
           {% endfor %}
         </div>
+        <a href="#about" class="explore page-scroll">
+          <svg class="icon icon-arrow-down" viewBox="0 0 32 32">
+            <use xlink:href="{{ site.baseurl }}/img/sprites/sprites.svg#icon-arrow-down"></use>
+          </svg>
+        </a>
       </div>
     </div>
   </div>

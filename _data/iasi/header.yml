@@ -6,4 +6,4 @@ intro-text: >
 items:
     - section: "apply-now"
       image: "../img/apply-now.png"
-    #   description: "Apply now !"
+      use-class: false

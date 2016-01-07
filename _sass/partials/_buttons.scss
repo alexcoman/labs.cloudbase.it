@@ -1,0 +1,36 @@
+.btn {
+    border-radius: 3;
+    font-family: "geomanistlbook", "Helvetica Neue",Helvetica,Arial,sans-serif;
+    // font-weight: 400;
+    font-size: 20px;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.btn-default {
+    border: 1px solid $primary;
+    color: $primary;
+    background-color: transparent;
+}
+
+.btn-default:hover,
+.btn-default:focus {
+    border: 1px solid $primary;
+    outline: 0;
+    color: #000;
+    background-color: $primary;
+}
+
+.btn-primary {
+    color: #fff !important;
+    user-select: none;
+    text-transform: uppercase;
+    border: 0;
+    background: $primary !important;
+    &:hover, &:focus, &:active, &.active {
+        outline: none;
+        color: #fff;
+        background: $primary-hover;
+    }
+}
