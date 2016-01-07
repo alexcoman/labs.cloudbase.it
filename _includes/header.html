@@ -1,19 +1,20 @@
 {% assign header = site.data[page.data].header %}
 <!-- Intro Start -->
-<header class="intro" style="background-image: url('{{ site.baseurl }}{{ header.background-img }}')">
+<header class="intro" style="background-image: linear-gradient(rgba(0,0,0, .5), rgba(0,0,0,.5)), url('{{ site.baseurl }}{{ header.background-img }}')">
   <div class="intro-body">
     <div class="container">
       <div class="content-wrapper">
         <div class="col-lg-10 col-lg-offset-1 text-center">
           <h1 class="brand-heading">&nbsp;</h1>
           <span class="intro-text">{{ header.intro-text }}</span>
-          <h5>&nbsp;</h5>
           {% for item in header.items %}
           {% assign colWidth = 12 | divided_by: forloop.length %}
-          <div class="col-md-{{colWidth}} col-sm-{{colWidth}} col-xs-{{colWidth}} same-height cols-centered">
-            <a {% if item.section != null %}class="page-scroll" href="#{{ item.section }}"{% else %}href="{{ item.url | prepend: site.baseurl}}"{% endif %}>
-              <img {% if item.use-class %}class="img-me"{% endif %} src="{{ item.image | preped: site.baseurl}}" alt="{{ item.description }}">
-              <figcaption><h5>{{ item.description }}</h5></figcaption>
+          <div class="col-md-{{colWidth}} col-sm-{{colWidth}} col-xs-{{colWidth}} same-height text-center">
+            <a href="{{ item.url }}" class="{{ item.url-class }}">
+              {% if item.content %} {{ item.content }}
+              {% else %}
+              <img class="img-me" src="{{ item.image | preped: site.baseurl}}" alt="{{ item.description }}">
+              {% endif %}
             </a>
           </div>
           {% endfor %}

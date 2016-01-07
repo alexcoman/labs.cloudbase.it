@@ -1,10 +1,9 @@
 background-img: "/img/iasi-background.jpg"
 intro-text: >
-    "The journey of a thousand miles begins with one step."<br>
-    ~Lao Tzu
+    <strong>Applications are open.</strong><br>
+    Register now for a chance to be one of the 8 participants to our workshops.
 
 items:
-    - section: "apply-now"
-      image: "../img/apply-now.png"
-      description: "Apply now"
-      use-class: false
+    - url: "#apply-now"
+      url-class: "btn btn-circle page-scroll text-center"
+      content: <i class="fa fa-angle-double-down animated"></i>

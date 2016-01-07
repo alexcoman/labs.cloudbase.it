@@ -1,14 +1,13 @@
 background-img: "/img/home-background.jpg"
 intro-text: >
   "All we have to decide is what to do with the time that is given us."<br>
-  ~J. R. R. Tolkien
+  ~J. R. R. Tolkien<h5>&nbsp;</h5>
 
 items:
-    - url: "/iasi/"
-      image: "img/Labs2016_towns_IS.jpg"
-      use-class: true
+  - url: "/iasi/"
+    url-class: ""
+    image: "img/Labs2016_towns_IS.jpg"
 
-    - url: "/timisoara/"
-      image: "img/Labs2016_towns_TM.jpg"
-      use-class: true
-
+  - url: "/timisoara/"
+    url-class: ""
+    image: "img/Labs2016_towns_TM.jpg"
