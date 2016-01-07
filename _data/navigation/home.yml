@@ -3,6 +3,7 @@ title: null
 
 links:
     - {section: "about",    text: "About"}
-    - {section: "contact",  text: "Contact"}
     - {link: "/iasi/",      text: "LABS @Iasi"}
     - {link: "/timisoara/", text: "LABS @Timisoara"}
+    - {link: "blog",  		text: "Blog"}
+    - {section: "contact",  text: "Contact"}

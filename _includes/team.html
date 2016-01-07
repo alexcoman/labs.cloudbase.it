@@ -9,7 +9,8 @@
 
       <div class="col-lg-12 text-center">
         {% for team_member in team.members %}
-        <div class="col-md-3 col-sm-6 col-xs-12 same-height cols-centered">
+        {% assign column_width = 12 | divided_by: forloop.length %}
+        <div class="col-md-{{ column_width }} col-sm-6 col-xs-12 same-height cols-centered">
           <img class="img-me" src="{{ site.baseurl | append: '/img/team/' | append: team_member.picture }}">
           <div class="col-md-12 col-sm-12 col-xs-12 same-height text-center">
             <h4>{{ team_member.name }} <span>{{ team_member.surname }}</span></h4>
