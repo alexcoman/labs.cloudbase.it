@@ -1,25 +1,38 @@
 timeline-img: "/img/timeline/default.png"
-title: "Timelime"
+title: "Timeline"
 events:
   - image: "/img/timeline/father_timeout.jpg"
-    date: "6 - 23 January"
-    description: "Submission of the applications."
+    date: "7 - 23 January"
+    description: >
+      <strong>Applications are open.</strong><br>
+      Register <a class="page-scroll" href="#apply-now">here</a>
+      for a chance to be one of the 8 participants to our workshops.
 
   - image: "/img/timeline/agendacat.png"
-    date: "11 - 30 January"
-    description: "Interviews for the trainings."
+    date: "13 - 30 January"
+    description: >
+      <storng>Interview period.</strong><br>
+      You will be contacted by a member of our team and
+      visit our office for a discussion.
 
   - image: "/img/timeline/supportcat.png"
     date: "25 - 31 January"
-    description: "Announcement of the results."
+    description: >
+      <strong>Results are announced.</strong><br>
+      We will contact you back with our answer and provide
+      feedback to your application.
 
   - image: "/img/timeline/socialite.jpg"
     date: "1 - 14 February"
     description: >
-        Open Source 101 - Basic information about open source,
-        source control, Python, Bash, PowerShell, basic Linux
-        and more.
+      <strong>Training sessions.</strong><br>
+      2 weeks of hands-on workshops covering Python, Git,
+      Linux / Bash, Windows / PowerShell and more.
 
   - image: "/img/timeline/pythocat.png"
     date: "15 February"
-    description: "If you liked it, it's time to join the team !"
+    description: >
+      <strong>Join the Cloudbase team!</strong><br>
+      If you would like to further develop your Python skills,
+      work on open source projects, and you show potential,
+      it's time to join our team.
