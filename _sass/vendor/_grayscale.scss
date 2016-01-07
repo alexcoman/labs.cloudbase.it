@@ -26,8 +26,12 @@ h5,
 h6 {
     margin: 0 0 35px;
     // text-transform: uppercase;
-    font-family: "geomanistbook", Helvetica, Arial, sans-serif;
+    font-family: "geomanistlight", Helvetica, Arial, sans-serif;
     letter-spacing: 1px;
+}
+
+h3 {
+    font-size: 35px;
 }
 
 p {
@@ -261,9 +265,10 @@ a {
 }
 
 .btn {
-    border-radius: 0;
-    font-family: "Geovanist", "Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 400;
+    border-radius: 3;
+    font-family: "geomanistlbook", "Helvetica Neue",Helvetica,Arial,sans-serif;
+    // font-weight: 400;
+    font-size: 20px;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
