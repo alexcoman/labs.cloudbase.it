@@ -51,7 +51,7 @@
 .explore {
     margin-left: -16px;
     position: absolute;
-    bottom: 10px;
+    bottom: -10px;
     left: 50%;
     animation: callToAction 3.5s linear 0s infinite;
     @media (max-width: 767px) {
