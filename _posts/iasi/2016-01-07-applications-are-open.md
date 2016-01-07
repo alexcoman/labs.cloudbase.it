@@ -34,5 +34,5 @@ We think it’s a great opportunity for those of you who are willing to take a s
 Looking forward for your applications,   
 The Cloudbase Solutions team.
 
-[0]:  https://labs.alexcoman.com/iasi/#team
-[1]:  https://labs.alexcoman.com/iasi/#timeline
+[0]:  https://labs.cloudbase.it/iasi/#team
+[1]:  https://labs.cloudbase.it/iasi/#timeline

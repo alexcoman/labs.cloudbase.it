@@ -6,7 +6,7 @@ CONFIG = YAML.load(File.read('_config.yml'))
 USERNAME = CONFIG["username"]
 REPO = CONFIG["repo"]
 SOURCE_BRANCH = "master"
-DESTINATION_BRANCH = "gh-pages"
+DESTINATION_BRANCH = "publish"
 DESTINATION = CONFIG["destination"]
 
 def check_destination
