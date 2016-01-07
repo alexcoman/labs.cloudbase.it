@@ -1,11 +1,7 @@
 source "https://rubygems.org"
+ruby "2.1.1"
 
-require "json"
-require "open-uri"
-versions = JSON.parse(open("https://pages.github.com/versions.json").read)
-ruby versions["ruby"]
-
-gem "github-pages", versions["github-pages"]
+gem "github-pages", "40"
 gem "rake", "~> 10.1.1"
 gem 'compass'
 gem 'sass-media_query_combiner'
