@@ -25,7 +25,7 @@ sass:
 
 # Site settings
 baseurl: ""
-url: "https://labs.cloudbase.it/"
+url: "https://labs.cloudbase.it"
 google-tracking-id: ""
 
 
@@ -33,9 +33,16 @@ lang: "en"
 author: "Cloudbase Solutions"
 title: "Cloudbase LABS"
 description: >
-  We are bringing OpenStack to the classroom and as part of our effort
-  we will teach, mentor and assist a group of 15 students.
+  CloudbaseLABS is a training program developed by Cloudbase Solutions
+  in the fields of Python programming, OpenStack and DevOps technologies
+  and practices.
 keywords: "windows, linux, python, bash, powershell, openstack, hyper-v"
+
+twitterAccount: "@cloudbaseit"
+socialImageSrcGooglePlus: "/img/seo/sharing-google-plus.png"
+socialImageSrcTwitter: "/img/seo/sharing-twitter.png"
+socialImageSrcFacebook: "/img/seo/sharing-facebook.png"
+
 
 favicon: "/img/favicon.ico"
 logo: "/img/logo.png"
