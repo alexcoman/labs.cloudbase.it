@@ -26,7 +26,7 @@ sass:
 # Site settings
 baseurl: ""
 url: "https://labs.cloudbase.it"
-google-tracking-id: ""
+google-tracking-id: "UA-72187921-1"
 
 
 lang: "en"
