@@ -11,6 +11,8 @@ members:
         url: "https://github.com/adelina-t"
       - title: "linkedin"
         url: "https://ro.linkedin.com/in/adelina-georgiana-tuvenie-3a4a144b/en"
+      - title: "envelope"
+        url: "mailto:atuvenie@cloudbasesolutions.com?subject=CloudbaseLABS"
 
   - name: "Alex"
     surname: "Coman"
@@ -21,5 +23,7 @@ members:
         url: "https://github.com/alexandrucoman"
       - title: "linkedin"
         url: "https://www.linkedin.com/in/comanalex"
+      - title: "envelope"
+        url: "mailto:acoman@cloudbasesolutions.com?subject=CloudbaseLABS"
       - title: "link"
         url: "https://alexcoman.com/"
