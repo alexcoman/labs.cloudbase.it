@@ -31,7 +31,7 @@ sass:
 
 # Site settings
 baseurl: ""
-url: "https://labs.cloudbase.it"
+url: "http://labs.cloudbase.it"
 google-tracking-id: "UA-72187921-1"
 
 
@@ -118,5 +118,5 @@ repo:            "labs.cloudbase.it"
 branch:          "master"
 relative_source: "../labs.cloudbase.it/"
 destination:     "../labs.cloudbase.it-pages/"
-production_url:  "https://labs.cloudbase.it/"
+production_url:  "http://labs.cloudbase.it/"
 source_url:      "https://github.com/alexandrucoman/labs.cloudbase.it"

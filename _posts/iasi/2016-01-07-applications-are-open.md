@@ -21,6 +21,8 @@ Course timeline:
 - February 1 - 14: Training sessions
 - February 15: Join the Cloudbase team!
 
+More information can be found [here][1].
+
 Learning points / topics covered:
 
 - Basics in Python programming.
@@ -34,5 +36,5 @@ We think it’s a great opportunity for those of you who are willing to take a s
 Looking forward for your applications,   
 The Cloudbase Solutions team.
 
-[0]:  https://labs.cloudbase.it/iasi/#team
-[1]:  https://labs.cloudbase.it/iasi/#timeline
+[0]: /iasi/#team
+[1]: /iasi/#timeline
