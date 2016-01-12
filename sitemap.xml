@@ -84,6 +84,15 @@
   
   
     <url>
+      <loc>http://labs.cloudbase.it/iasi/2016/01/12/interview-information/</loc>
+      
+        <lastmod>2016-01-12T00:00:00+00:00</lastmod>
+      
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+    </url>
+  
+    <url>
       <loc>http://labs.cloudbase.it/iasi/2016/01/07/applications-are-open/</loc>
       
         <lastmod>2016-01-07T00:00:00+00:00</lastmod>
