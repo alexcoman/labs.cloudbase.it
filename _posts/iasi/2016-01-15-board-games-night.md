@@ -14,7 +14,7 @@ Snacks are on us and we have the following games in store for you: Dixit, 7 Wond
 
 ![Board games night](/img/post/board-games-night/games-1.jpg)
 
-![Board games night](/img/post/board-games-night/games-1.jpg)
+![Board games night](/img/post/board-games-night/games-2.jpg)
 
 Also, feel free to bring a friend. The more the merrier. 
 
