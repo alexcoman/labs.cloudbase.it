@@ -88,6 +88,28 @@
   
     
   
+    
+      <url>
+        <loc>http://labs.cloudbase.it/blog/page2/</loc>
+        
+          
+          
+          
+          <priority>1.0</priority>
+          
+        
+       </url>
+    
+  
+  
+    <url>
+      <loc>http://labs.cloudbase.it/iasi/2016/01/19/cloudbase-office-how-to-get-there/</loc>
+      
+        <lastmod>2016-01-19T00:00:00+00:00</lastmod>
+      
+      <changefreq>weekly</changefreq>
+      <priority>1.0</priority>
+    </url>
   
     <url>
       <loc>http://labs.cloudbase.it/iasi/2016/01/18/pictures-board-games-night-1/</loc>
