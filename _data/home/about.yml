@@ -4,11 +4,22 @@ content: >
         CloudbaseLABS is a training program developed by Cloudbase Solutions
         in the fields of Python programming, OpenStack and DevOps technologies
         and practices.
-    
+
         We’ve been delivering this program in Timișoara for the past 2 years
-        with great feedback from participants. Starting from 2016 we’ve decided
-        to expand it to other cities in Romania as well.
+        as part of the <a href="https://labs.ligaac.ro/" target="_blank">
+        LigaAC LABS project</a>, organised by the computer science student
+        organization from the “Politehnica" University of Timișoara (LigaAC).
     </p>
+
+    <p class="text-justify">
+        We partnered with them in 2014 and CloudbaseLABS was born. We partnered
+        again in 2015 and received great feedback from the students who applied
+        and attended our workshops. Starting from 2016 we’ve decided to expand
+        our program to other cities in Romania as well. With an office opened
+        in 2015, Iași was definitely the first on the list. Other cities in
+        Romania coming soon.
+    </p>
+
     <p class="text-justify">
         The goal of these workshops is to help students become familiar with
         Python as a programming language, find out about OpenStack and other

@@ -1,15 +1,20 @@
 title: "Cloudbase LABS @Timișoara"
 content: >
     <p class="text-justify">
-        Cloudbase Solutions is partnering with the Computer Science
-        student organization from the “Politehnica” University of
-        Timișoara in delivering a full semester of Python, OpenStack
-        and Hyper-V hands-on workshops. The goal of this workshop is
-        to be able to deploy an OpenStack cloud for development purposes,
-        understand the general concepts and architecture, be able to
-        look under the hood and debug, test previously implemented
-        features and be able to fix simple reported bugs and start
-        implementing Python code.
+        LigaAC LABS is a project organised by LigaAC (computer science
+        student organization from the “Politehnica" University of
+        Timișoara) since 2010 and it consists of a series of workshops
+        held by some of the biggest names in IT&C from Timișoara.
+
+        Cloudbase Solutions is partnering with LigaAC in delivering a
+        full semester of Python, OpenStack and Hyper-V hands-on workshops
+        through the Liga AC LABS project.
+
+        The goal of this workshop is to be able to deploy an OpenStack
+        cloud for development purposes, understand the general concepts
+        and architecture, be able to look under the hood and debug, test
+        previously implemented features and be able to fix simple reported
+        bugs and start implementing Python code.
     </p>
 
     <p>
